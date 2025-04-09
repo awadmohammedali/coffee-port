@@ -1,0 +1,117 @@
+.xl-text {
+  font-size: 75px;
+}
+
+.btn-outline-secondary {
+  color: var(--bs-secondary);
+}
+
+.btn-outline-secondary {
+  &:hover {
+    color: #fff;
+  }
+}
+
+.navbar {
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+  background: linear-gradient(to bottom, black, transparent);
+  color: white;
+}
+
+.navbar-sticky {
+  background: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-sticky a {
+  color: #292724 !important;
+}
+.header {
+  background: url("../images/header-background.jpg") center center no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  height: 100vh;
+}
+
+.contact .decoration-star {
+  left: -300px;
+  width: 600px;
+}
+
+.box {
+  border-radius: 15px;
+  background: #555555;
+  color: white;
+  padding: 15px;
+}
+.box h2 {
+  color: white;
+  padding: 15px;
+}
+
+.box h1 {
+  color: white;
+  padding: 15px;
+}
+
+.box > ul > li > i {
+  margin-top: 5px;
+}
+
+.to-top-btn {
+  img {
+    margin-bottom: 0.25rem;
+    width: 18px;
+  }
+}
+
+.show {
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+    background: linear-gradient(to bottom, black, transparent);
+    color: white;
+  }
+  .header h1 {
+    font-size: 30px;
+  }
+  .xl-text {
+    font-size: 50px;
+  }
+  #ersha img {
+    width: 210px;
+    height: 150px;
+    padding: 0px;
+  }
+
+  #the-captin img {
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+  }
+
+  .navbar {
+    .btn-outline-secondary {
+      margin-top: 20px;
+    }
+  }
+
+  .services .col-md-4 {
+    border-bottom: 1px #ccc solid;
+    margin: 10px 0;
+  }
+
+  .details-2 {
+    margin-top: 20px !important;
+  }
+
+  .details-2 .decoration-star {
+    top: 300px;
+  }
+}
